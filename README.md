@@ -17,8 +17,8 @@ To get started, you'll need to configure certain variables in the `config` folde
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Immutal0/Token-Freezer-Solana
-cd Token-Freezer-Solana
+git clone https://github.com/Immutal0/Raydium-Token-Freezer
+cd Raydium-Token-Freezer
 ```
 
 ### 2. Install Dependencies
