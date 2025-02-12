@@ -2,7 +2,7 @@ import { ComputeBudgetProgram, Connection, Keypair, PublicKey, Transaction, Tran
 import { MAINNET_PROGRAM_ID, LIQUIDITY_STATE_LAYOUT_V4, SPL_ACCOUNT_LAYOUT } from "@raydium-io/raydium-sdk"
 import { NATIVE_MINT, TOKEN_PROGRAM_ID, createFreezeAccountInstruction, getAssociatedTokenAddress } from "@solana/spl-token"
 import base58 from "bs58"
-import { COMMITMENT_LEVEL, DOUBLE_CHECK_INTERVAL, MAIN_KP, MINT, RPC, WSS } from "./consts"
+import { COMMITMENT_LEVEL, DOUBLE_CHECK_INTERVAL, MAIN_KP, MINT, RPC, WSS } from "./config"
 import { readJson, saveDataToFile } from "./utils"
 
 const connection = new Connection(RPC, { wsEndpoint: WSS })

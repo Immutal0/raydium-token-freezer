@@ -1,47 +1,57 @@
+# Raydium Token Freezer (Honeypot Boilerplate)
 
-# Raydium Token Freezer (Boilerplate of honeypot maker)
-
-#### This bot is built version and original version can be purchased by contacting me. Additional update like jito mode and other features can be done at any time with requirment
+This bot is a customizable version of a token freezer, originally designed for use with Raydium pools. The original version can be purchased by contacting me, and additional updates, like Jito mode and other features, can be added upon request.
 
 ## 🌟 Features
-- Scan new wallets that buys token in raydium pool.
-- Freezes token account by sending transactions to ATA.
-- Unfreezes token account if you need to.
 
-## 📋 Variables to run bot
-In `consts` folder, you can set necessary varibles like main keypair and token mint address to measure in `index.ts` file.
+- **Scan Wallets**: Monitors wallets that buy tokens in Raydium pools.
+- **Freeze Token Accounts**: Freezes token accounts by sending transactions to Associated Token Accounts (ATA).
+- **Unfreeze Token Accounts**: Option to unfreeze token accounts as needed.
 
-#  🚀 Usage
-### 1. Clone the repository
+## 📋 Configuration
+
+To get started, you'll need to configure certain variables in the `config` folder. Important variables include the main keypair, token mint address, and other settings in the `index.ts` file.
+
+### 🚀 Setup & Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Immutal0/Token-Freezer-Solana
+cd Token-Freezer-Solana
 ```
-git clone https://github.com/0xNevo/Solana_Token_Freezer
-cd Solana_Token_Freezer
-```
-### 2. Install dependencies
-```
+
+### 2. Install Dependencies
+
+```bash
 npm install
 ```
-### 3. Configure the environment variables
-`COMMITMENT_LEVEL`, `RPC`, `WSS`, `MINT`, `MAIN_KP`, `DOUBLE_CHECK_INTERVAL`, `ADDRESS_TO_UNFREEZE` are things to set in the `index.ts` file.
 
-### 4. Run the bot
+### 3. Configure the Environment Variables
 
-```
+Open the `index.ts` file and set the following variables:
+
+- `COMMITMENT_LEVEL`: The level of transaction commitment (e.g., confirmed, finalized).
+- `RPC`: The RPC endpoint for connecting to Solana.
+- `WSS`: WebSocket URL for monitoring.
+- `MINT`: The mint address of the token you want to monitor.
+- `MAIN_KP`: The keypair to use for signing transactions.
+- `DOUBLE_CHECK_INTERVAL`: The interval (in ms) to double-check the wallet state.
+- `ADDRESS_TO_UNFREEZE`: Optionally, provide a wallet address to unfreeze tokens.
+
+### 4. Run the Bot
+
+Once configured, start the bot with:
+
+```bash
 npm start
 ```
 
-### 5. Gather the funds from distributed wallets
+The bot will begin monitoring transactions, freezing and unfreezing accounts as needed.
 
-```
-npm run gather
-```
+---
 
+# 👤 Contact Me
 
-# 👤 Author
-
-### Twitter: [@NevoSayNevo](https://x.com/NevoSayNevo)   
-
-### Telegram: [@NevoSayNevo](https://t.me/NevoSayNevo)   
-
-
-Please feel free to contact me at any time.
+- **Twitter**: [@Immutal0](https://x.com/Immutal0)
+- **Telegram**: [@Immutal0](https://t.me/Immutal0)

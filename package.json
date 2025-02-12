@@ -1,6 +1,6 @@
 {
   "name": "token-freezer",
-  "author": "Rabnail",
+  "author": "Immutal0",
   "scripts": {
     "buy": "ts-node buy.ts",
     "start": "ts-node index.ts",

@@ -1,7 +1,7 @@
 import { createThawAccountInstruction, getAssociatedTokenAddress } from "@solana/spl-token"
 import { ComputeBudgetProgram, Connection, Keypair, PublicKey, Transaction, sendAndConfirmTransaction } from "@solana/web3.js"
 import base58 from "bs58"
-import { ADDRESS_TO_UNFREEZE, MAIN_KP, MINT, RPC } from "./consts"
+import { ADDRESS_TO_UNFREEZE, MAIN_KP, MINT, RPC } from "./config"
 
 
 const unfreeze = async () => {
