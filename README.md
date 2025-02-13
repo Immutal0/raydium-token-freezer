@@ -53,5 +53,5 @@ The bot will begin monitoring transactions, freezing and unfreezing accounts as 
 
 # 👤 Contact Me
 
-- **Twitter**: [@Immutal0](https://x.com/Immutal0)
+- **Twitter**: [@Immutal0_](https://x.com/Immutal0_)
 - **Telegram**: [@Immutal0](https://t.me/Immutal0)
